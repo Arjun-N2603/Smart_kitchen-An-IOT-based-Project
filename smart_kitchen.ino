@@ -8,8 +8,8 @@
 #include <BlynkSimpleEsp8266.h>
 #include <DHT.h>
 
-char ssid[] = "Smart_kitchen";
-char pass[] = "kitchen1234";
+char ssid[] = " ";
+char pass[] = " ";
 
 DHT dht(D3, DHT11); // DHT sensor is connected to pin D3
 BlynkTimer timer;
